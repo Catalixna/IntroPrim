@@ -8,7 +8,7 @@ st.markdown(
         <span style='color: #5f7195;'>Capibaras</span></h1>""",unsafe_allow_html=True)
 st.header("En está pagina veras información de las capibaras:")
 st.write("_Los capibaras son los roedores más grandes del mundo, conocidos por su naturaleza tranquila y amigable. Viven cerca del agua y les encanta nadar. Con su pelaje marrón y su cuerpo robusto, ¡son unos verdaderos campeones acuáticos! Son herbívoros y siempre están en grupo, disfrutando de la vida en comunidad._")
-image = Image.open('peces.jpg')
+image = Image.open('capipi.jpg')
 
 st.image(image, caption='Capibara')
 
