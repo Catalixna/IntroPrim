@@ -1,7 +1,11 @@
 import streamlit as st
 from PIL import Image
 
-st.title("Creación de interfaces multimodales")
+st.markdown(
+    """<h1 style='text-align: center;'>
+        <span style='color: #2b337d;'>Reconocimiento </span>
+        <span style='color: #4256a9;'>de </span>
+        <span style='color: #5f7195;'>Imágenes</span></h1>""",unsafe_allow_html=True)
 st.header("Holaaaa")
 st.write("Tipos de letra")
 image = Image.open('peces.jpg')
